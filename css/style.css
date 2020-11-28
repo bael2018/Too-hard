@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* nav */
+
+.nav{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.nav_left{
+    display: flex;
+
+}
+
+.nav_left i{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.nav_left p{
+    margin: 0;
+    margin-top: 10px;
+}
+
+.nav_left p span{
+    background: rgb(163, 163, 163);
+    padding:1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.nav_left p span:hover{
+    background: rgb(122, 122, 122);
+}
+
+.link1{
+    color: white;
+}
+
+.unity{
+    color: white;
+    text-decoration: none;
+}
+
+.nav_right ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav_right ul li{
+    margin: 0 5px;
+}
+
+.nav_right ul li a{
+    padding: 10px 20px;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+.heart{
+    color: rgb(163, 163, 163);
+}
+
+.heart:hover{
+    background: grey;
+    color: black;
+    border: 2px solid black;
+}
+
+.view{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+.view:hover{
+    background: grey;
+    color: black;
+    border: 2px solid black;
+}
+
+.view i{
+    margin-right: 5px;
+}
+
+.sign{
+    background: green;
+    border: 2px solid green;
+    color: black;
+    text-decoration: none;
+}
+
+.sign:hover{
+    background: rgb(0, 94, 0);
+}
+
+.log{
+    color: rgb(163, 163, 163);
+    background: rgb(27, 27, 27);
+}
+
+/* main */
+
+main{
+    background: green;
+    width: 100%;
+    height: 93vh;
+    padding-top: 30px;
+}
+
+.title{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title p{
+    margin: 0;
+}
+
+.title_left h1{
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.title_right a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.title_right p{
+    margin-top: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.main_block1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_block1 div{
+    position: relative;
+}
+
+.main_block2 div{
+    position: relative;
+}
+
+.main_block3 div{
+    position: relative;
+}
+
+.main_left{
+    display: flex;
+}
+
+.main_left div{
+    margin: 5px;
+
+}
+
+.para{
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.div1{
+    background: rgb(95, 129, 160);
+    height: 130px;
+    width: 272px;
+}
+
+.div2{
+    background: rgb(95, 129, 160);
+    height: 130px;
+    width: 272px;
+}
+
+.div3{
+    background: rgb(95, 129, 160);
+    height: 130px;
+    width: 130px;
+}
+
+.main_right{
+    display: flex;
+    margin-left: 60px;
+}
+
+.main_right div{
+    margin: 5px;
+}
+
+.main_block2{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    
+}
+
+.main_block3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    
+}
+
+.noob1{
+    background: rgb(95, 116, 160);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+
+.noob1:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob1 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob2{
+    background:rgb(228, 157, 65);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob2:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob3:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.noob4:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.noob5:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.noob6:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.noob7:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.noob8:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.noob9:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob10:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob11:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob12:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob13:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob14:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob15:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob16:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+
+.noob2 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob3{
+    background: red;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob3 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob4{
+    background: rgb(95, 116, 160);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob4 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob5{
+    background: rgb(28, 224, 205);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob5 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob6{
+    background: rgb(25, 223, 25);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob6 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob7{
+    background: rgb(28, 224, 205);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob7 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob8{
+    background: orange;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob8 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob9{
+    background: rgb(25, 223, 25);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob9 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob10{
+    background: red;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob10 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob11{
+    background: rgb(247, 80, 107);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob11 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob12{
+    background:red;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob12 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob13{
+    background:rgb(228, 157, 65);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob13 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob14{
+    background: rgb(95, 116, 160);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob14 p{
+    width: 170px;
+    color: white;
+    font-weight: 300;
+}
+
+.noob14 div{
+    width: none;
+    text-align: center;
+}
+
+.noob14 div .number{
+    color: white;
+    font-size: 35px;
+}
+
+.noob14 div b{
+    color: white;
+    font-weight: 300;
+}
+
+.noob15{
+    background: rgb(25, 223, 25);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob15 a{
+    color: white;
+    font-size: 40px;
+}
+
+.noob16{
+    background:orange;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    transform: scale(1,1);
+}
+
+.noob16 a{
+    color: white;
+    font-size: 40px;
+}
