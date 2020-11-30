@@ -20,7 +20,6 @@ header{
 
 .nav_left{
     display: flex;
-
 }
 
 .nav_left i{
@@ -52,7 +51,6 @@ header{
 
 .unity{
     color: white;
-    text-decoration: none;
 }
 
 .nav_right ul{
@@ -116,8 +114,12 @@ header{
 main{
     background: green;
     width: 100%;
-    height: 93vh;
     padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.hide{
+    display: none;
 }
 
 .title{
@@ -174,11 +176,11 @@ main{
 
 .main_left{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main_left div{
     margin: 5px;
-
 }
 
 .para{
@@ -223,7 +225,7 @@ main{
     margin: 0 auto;
     margin-top: 0px;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .main_block3{
@@ -231,7 +233,7 @@ main{
     margin: 0 auto;
     margin-top: 0px;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .noob1{
@@ -242,7 +244,6 @@ main{
     align-items: center;
     transform: scale(1,1);
 }
-
 
 .noob1:hover{
     transform: scale(1.1,1.1);
@@ -547,4 +548,297 @@ main{
 .noob16 a{
     color: white;
     font-size: 40px;
+}
+
+/* Адаптивка */
+
+@media screen and (max-width:1305px){
+
+    .main_right{
+        display: flex;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1228px){
+
+    .lop1{
+        height: 130px;
+        width: 341.6px;
+    }
+
+    .main_block1{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_block2{
+        justify-content: center;
+    }
+
+    .main_block3{
+        justify-content: center;
+    }
+
+    .main_right{
+        justify-content: center;
+    }
+        
+    .main_left{
+        justify-content: center;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 692px;
+    }
+
+    .noob3{
+        width: 692px;
+    }
+}
+
+@media screen and (max-width:880px){
+
+    .lop1{
+        height: 130px;
+        width: 245px;
+    }
+
+    .star{
+        width: 500px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 500px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 245px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 500px;
+    }
+
+    .main_block1{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_block2{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main_block3{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_left{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:645px){
+
+    .lop1{
+        height: 130px;
+        width: 450px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 450px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 450px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 450px;
+    }
+
+    .main_right{
+        display: flex;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav_right ul{
+        display:none;
+        list-style: none;
+    }
+
+    .hide{
+        display: block;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .hide a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .hide a:hover{
+        color: grey;
+        transition: .5s;
+    }
+
+    .unity{
+        color: white;
+        font-size: 18px;
+    }
+    
+    .nav_left p span{
+        display: none;
+    }
+
+    .nav_left{
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:585px){
+
+    .lop1{
+        height: 130px;
+        width: 400px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 400px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 400px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:520px){
+
+    .lop1{
+        height: 130px;
+        width: 350px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 350px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 350px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:455px){
+
+    .lop1{
+        height: 130px;
+        width: 300px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 300px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 300px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:390px){
+
+    .lop1{
+        height: 130px;
+        width: 250px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 250px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 250px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .lop1{
+        height: 130px;
+        width: 200px;
+    }
+
+    .lop2{
+        height: 130px;
+        width: 200px;
+    }
+
+    .lop4{
+        height: 130px;
+        width: 200px;
+    }
+
+    .lop3{
+        height: 130px;
+        width: 200px;
+    }
 }
